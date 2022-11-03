@@ -1,20 +1,19 @@
+USER STORY: As a user, i want to be able to make filtering for parcels from the Archive by delivery status
 
-1- USER STORY: As a user, i want to be able to make filtering for parcels from the Archive by delivery status
+Scenario 1: Show all items from Archieve with "Delivered" status
 
-2- Scenario 1: Show all items from Archieve with "Delivered" status
+Pre-condition: At least 1 parcel from Archieve must have "Delivered" status                  
 
-3- Pre-condition: At least 1 parcel from Archieve must have "Delivered" status                  
+1. GIVEN The User navigates to the "Archive Parcels" page
+2. WHEN  The User clicks on the "Sort by..." button 
+3. AND   The User selects the item "Delivered" in the drop-down context menu  
+4. THAN  The system shows all entries in the Achieve with "Delivered" status  
 
-4- 1. GIVEN The User navigates to the "Archive Parcels" page
-5- 2. WHEN  The User clicks on the "Sort by..." button 
-6- 3. AND   The User selects the item "Delivered" in the drop-down context menu  
-7- 4. THAN  The system shows all entries in the Achieve with "Delivered" status  
+Scenario 2: Show all items from Archieve with "On the way..." status
 
-8- Scenario 2: Show all items from Archieve with "On the way..." status
+Pre-condition: At least 1 parcel from Archieve must have "On the way..." status    
 
-9- Pre-condition: At least 1 parcel from Archieve must have "On the way..." status    
-
-10- 1. GIVEN The User navigates to the "Archive Parcels" page
-11- 2. WHEN  The User clicks on the "Sort by..." button 
-12- 3. AND   The User selects the item "On the way..." in the drop-down context menu  
-13- 4. THAN  The system shows all entries in the Achieve with "On the way..." status  
+1. GIVEN The User navigates to the "Archive Parcels" page
+2. WHEN  The User clicks on the "Sort by..." button 
+3. AND   The User selects the item "On the way..." in the drop-down context menu  
+4. THAN  The system shows all entries in the Achieve with "On the way..." status  
