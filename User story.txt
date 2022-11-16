@@ -2,12 +2,12 @@ USER STORY: As a user, i want to be able to make filtering for parcels from the 
 
 Scenario 1: Show all items from Archieve with "Delivered" status
 1. GIVEN The User navigates to the "Archive Parcels" page
-2. WHEN  The User clicks on the "Sort by..." button 
-3. AND   The User selects the item "Delivered" in the drop-down context menu  
-4. THAN  The system shows all entries in the Achieve with "Delivered" status  
+2. WHEN  The User clicks on the "Filtering..." button 
+3. AND   The User selects the item "Delivered" in the drop-down menu  
+4. THEN  The system shows all entries in the Achieve with "Delivered" status  
 
 Scenario 2: Show all items from Archieve with "On the way..." status
 1. GIVEN The User navigates to the "Archive Parcels" page
-2. WHEN  The User clicks on the "Sort by..." button 
-3. AND   The User selects the item "On the way..." in the drop-down context menu  
-4. THAN  The system shows all entries in the Achieve with "On the way..." status  
+2. WHEN  The User clicks on the "Filtering..." button 
+3. AND   The User selects the item "On the way..." in the drop-down menu  
+4. THEN  The system shows all entries in the Achieve with "On the way..." status  
